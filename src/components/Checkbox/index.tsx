@@ -1,9 +1,9 @@
-import { clsx } from 'clsx'
 import * as RadixCheckbox from '@radix-ui/react-checkbox'
 import { Check } from 'phosphor-react'
 
 export type CheckboxProps = {}
 
+// eslint-disable-next-line no-empty-pattern
 const Checkbox = ({}: CheckboxProps) => {
   return (
     <RadixCheckbox.Root
